@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styles */
+
+.intro--header {
+  height: 100vh;
+  background-image: url(assets/fondo-blog.png);
+  background-position: 50%;
+  margin-bottom: 100px;
+}
+
+.nav--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.nav--container ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.intro--content {
+  display: grid;
+  place-items: center;
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0.573);
+}
+
+.intro--content h2 {
+  color: #066e4f;
+  font-size: 60px;
+  max-width: 32ch;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro--content p {
+  width: 100ch;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-style: italic;
+  /* font-weight: bold; */
+}
+
+.logo--img {
+  height: 70px;
+  width: auto;
+}
+
+.btn--container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn--intro {
+  padding: 16px 32px;
+  border-radius: 100px;
+  background-color: #087f5b;
+  color: aliceblue;
+}
+/* END */
+
+/* About us */
+
+.who-are-we-section {
+  padding: 20px;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
+}
+
+.about-us--div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* place-items: center; */
+  /* padding: 20px; */
+  column-gap: 50px;
+}
+
+.who-are-we-h2 {
+  font-size: 50px;
+  /* margin-top: 50px; */
+  /* margin-bottom: 80px; */
+  color: #087f5b;
+}
+
+.about-us-h3 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #087f5b;
+  /* text-align: center; */
+}
+
+.about-us-p {
+  font-size: 24px;
+  max-width: 30ch;
+  /* text-align: center; */
+}
+
+/* END */
+
+.btn {
+  outline: none;
+  border: none;
+}
+
+ion-icon {
+  font-size: 32px;
+  vertical-align: -10%;
+  margin-right: 10px;
+}
+
+.services-div ion-icon {
+  font-size: 24px;
+  vertical-align: -15%;
+}
+
+.services-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  margin: 20px;
+  padding-top: 30px;
+  background-color: #087f5b;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.services-text-div {
+  background-color: #fff;
+}
+
+.services-h2 {
+  font-size: 40px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.services-div ul {
+  list-style: none;
+  margin-left: 70px;
+  font-size: 25px;
+}
+
+.services-div h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+img {
+  width: 100%;
+}
